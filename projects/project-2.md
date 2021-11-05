@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/NewsCloud.jpg
+image: images/NewsCloud.png
 title: Fake News - Trust in Media Across Time and Space
 permalink: https://sandriyishen.github.io/QMSS4063-Fake-News-Project/
 # All dates must be YYYY-MM-DD format!
