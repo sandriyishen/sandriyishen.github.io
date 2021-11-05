@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/AirBnB.png
+image: images/AirBnB.jpg
 title: AirBnB Subway Analysis
 permalink: https://sandriyishen.github.io/AirBnB-Subway-Analysis/
 # All dates must be YYYY-MM-DD format!
