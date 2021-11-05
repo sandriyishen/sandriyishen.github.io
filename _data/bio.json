@@ -1,0 +1,130 @@
+{
+  "basics": {
+    "name": "Svyatoslav Andriyishen",
+    "label": "Senior Data Scientist",
+    "picture": "https://sandriyishen.github.io/images/me.jpg",
+    "email": "s.andriyishen@gmail.com",
+    "phone": "",
+    "website": "https://sandriyishen.github.io",
+    "summary": "I am currently a Senior Data Scientist at CVS Health and this is my playground and portfolio for your pleasure.",
+    "location": {
+      "address": "",
+      "postalCode": "10002",
+      "city": "New York",
+      "countryCode": "USA",
+      "region": "NY"
+    },
+    "profiles": [
+      {
+        "network": "github",
+        "username": "sandriyishen",
+        "url": "https://github.com/sandriyishen"
+      },
+      {
+        "network": "linkedin",
+        "username": "andriyishen",
+        "url": "http://linkedin.com/in/andriyishen"
+      }
+    ]
+  },
+  "interests": [
+    {
+      "name": "social studies",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "data pipelining",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "scripting",
+      "keywords": [
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Languages and Frameworks",
+      "level": "",
+      "keywords": [
+        "Python",
+        "R",
+        "SQL/Hive",
+        "Hadoop",
+        "GCP/AWS"
+      ]
+    },
+    {
+      "name": "Toolsets/OS",
+      "level": "",
+      "keywords": [
+        "Shell Scripting",
+        "Git/GitHub",
+        "VSCode",
+        "Jupyter Notebook/Lab",
+        "Rstudio"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Columbia University",
+      "area": "Applied Statistics (QMSS)",
+      "studyType": "Master's",
+      "startDate": "",
+      "endDate": "2017",
+      "gpa": "",
+      "courses": [
+        "Applied Data Science Track"
+      ]
+    },
+    {
+      "institution": "Harvard University",
+      "area": "History (minor in Evolutionary Biology)",
+      "studyType": "Bachelor's",
+      "startDate": "",
+      "endDate": "2010",
+      "gpa": "",
+      "courses": [
+        "Multivariable Calculus",
+        "Citation in Chinese Language"
+      ]
+    }
+  ],
+  "work": [
+    {
+      "company": "CVS Health",
+      "position": "Senior Data Scientist",
+      "website": "",
+      "startDate": "2021-09-27",
+      "endDate": "Present",
+      "summary": "Integrate statistical experimentation functionalities",
+      "highlights": [
+        "Develop additional functionality in internal experiment evaluation package",
+        "Expand on campaign orchestration framework"
+      ]
+    },
+    {
+      "company": "iPinYou",
+      "position": "Data Scientist",
+      "website": "",
+      "startDate": "2018",
+      "endDate": "2020",
+      "summary": "Set up Data Science practice in a Chinese programmatic advertising startup",
+      "highlights": [
+        "Developed a multi-city forecasting model end-to-end for a pharmaceutical company (time series)",
+        "Integrated a social sentiment evaluation framework into a tech brand's workflow (marketing mix analysis)",
+        "Identified additional and surprising target user segment for a car brand (clustering and segmentation)",
+        "Created a model for personalized creative element recommendations for a FMCG company (market basket analysis)"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Available upon request",
+      "reference": ""
+    }
+  ]
+}
