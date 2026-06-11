@@ -1,5 +1,68 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Svyatoslav Andriyishen · Senior Data Scientist</title>
+  <meta name="description" content="Portfolio and resume of Svyatoslav Andriyishen, Senior Data Scientist in New York, NY.">
+  <link rel="icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
 
-{% include {{ site.theme-home }} %}
+  <nav class="topnav">
+    <a class="brand" href="#top">
+      <img src="images/me.jpg" alt="">
+      <span data-site-name>Svyatoslav Andriyishen</span>
+    </a>
+    <div class="navlinks">
+      <a href="#resume">Resume</a>
+      <a href="#projects">Projects <span class="count" id="project-count"></span></a>
+    </div>
+  </nav>
+
+  <header id="top" class="hero">
+    <div class="hero-inner">
+      <img class="portrait" src="images/me.jpg" alt="Portrait of Svyatoslav Andriyishen">
+      <div id="hero-content">
+        <h1 data-site-name>Svyatoslav Andriyishen</h1>
+        <p class="tagline">Loading…</p>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="resume" class="page-section">
+      <div class="section-head">
+        <span class="overline">Curriculum vitae</span>
+        <h2>Resume</h2>
+      </div>
+      <div id="resume-content"><p class="loading">Loading resume…</p></div>
+    </section>
+
+    <section id="projects" class="page-section">
+      <div class="section-head">
+        <span class="overline">Selected work</span>
+        <h2>Projects</h2>
+      </div>
+      <div id="projects-grid" class="cards"><p class="loading">Loading projects…</p></div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <div>
+        <p class="footer-name" data-site-name>Svyatoslav Andriyishen</p>
+        <p class="footnote">© <span id="year"></span> · Content lives in plain markdown — edit
+          <code>resume.md</code> and <code>projects.md</code> and the site updates itself.</p>
+      </div>
+      <div class="footer-links" id="footer-links"></div>
+    </div>
+  </footer>
+
+  <script src="js/site.js"></script>
+</body>
+</html>
