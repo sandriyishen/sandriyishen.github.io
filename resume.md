@@ -36,15 +36,15 @@ I enjoy tackling technically demanding problems, building the solution myself, a
 ### Lead Data Scientist — Aetna, a CVS Health Company
 April 2023 – Present · Remote, New York City Metropolitan Area
 
-- Architected and independently developed a Python-based statistical measurement system integrating BigQuery, experimentation platform outputs and APIs, and campaign/content metadata, with backend APIs, reusable packages, and a web UI to extend third-party SaaS capabilities
-- Implemented synthetic-control methodologies for test-only campaigns, alongside outlier-handling and bias-adjustment strategies for complex campaign measurement
-- Built cross-experiment analysis and cross-campaign reporting capabilities to support portfolio-level insights beyond the commercial experimentation platform's native functionality
-- Reengineered most of an inherited backend API and hardened the supporting UI application, improving authentication, security, error handling, automated testing, type checking, and maintainability ahead of release
-- Partnered with the SaaS vendor's data science and engineering teams on solution design and requirements, influencing delivery of 60+ platform enhancements, including bespoke enterprise features
-- Led rollout of a centralized experimentation platform, migrating approximately 85–86% of legacy campaigns and supporting measurement standardization across 22–24 stakeholder teams
-- Drove campaign simplification and measurement standards through the Measurement Center of Excellence, securing adoption of proposed standards within the center and preparing broader organizational rollout
-- Developed and maintained reusable innersource Python tooling for automated campaign evaluation, including data-quality validation and methodology selection based on dataset characteristics
-- Led organization-wide initiatives in statistical best practices, reusable software, coding guidance, and technical onboarding
+- Led enterprise experimentation standardization across 22–24 stakeholder teams and nearly 200 data scientists, migrating approximately 85–86% of legacy campaigns to a centralized SaaS measurement platform supporting nearly 500 experiments, 500+ metrics, and 100+ experiment properties
+- Architected and independently engineered a Python-based experimentation and causal-inference system integrating FastAPI, BigQuery, third-party experimentation APIs and outputs, and campaign/content metadata; developed reusable statistical packages and curated experiment-, property-, and member-level transformations for cross-experiment learning and portfolio reporting
+- Implemented propensity score matching (PSM) for synthetic-control construction, RMM-based validation, bias adjustment, outlier handling, and member-level incremental lift recalculation across experiments; previously implemented inverse probability weighting (IPW) and difference-in-differences (DiD) in an organization-wide Python evaluation package
+- Curated and maintained dozens of analytical views within an enterprise data environment spanning dozens of datasets and hundreds of views, standardizing inputs for reusable campaign measurement pipelines
+- Reengineered most of an inherited FastAPI backend and hardened its supporting web UI ahead of release, adding authentication and security improvements, static typing, error handling, automated tests, and expanded functionality; implemented containerized deployment workflows with GitHub Actions and GKE on GCP, using uv and pytest
+- Partnered directly with a commercial experimentation vendor's data science and engineering teams to define and deliver 60+ enhancements, including cross-experiment results, CUPED expansion, bias controls, outlier-handling methodologies, incremental-effect calculations, and UI improvements; helped introduce CUPED and sequential testing into organizational measurement workflows
+- Designed automated measurement and reporting workflows targeting a reduction in per-campaign measurement effort from an estimated 50 to 5 hours, with cross-experiment extraction, aggregation, and reporting designed to reduce work previously requiring hundreds of analyst-hours to approximately one hour; projected benefits pending broader release and validation
+- Drove campaign simplification, measurement governance, and metadata standards through the Measurement Center of Excellence; standards adopted by the center, with broader rollout pending, and developed an unreleased cross-experiment learning strategy to inform Marketing Pods' creative and audience decisions
+- Developed and maintained reusable innersource Python tooling for campaign evaluation, including data-quality validation and automated selection of statistical methods based on dataset characteristics; advanced organization-wide statistical and engineering best practices
 
 ### Senior Data Scientist — Aetna, a CVS Health Company
 September 2021 – April 2023 · New York City Metropolitan Area
