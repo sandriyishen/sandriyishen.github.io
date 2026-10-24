@@ -22,23 +22,29 @@ Lead Data Scientist · New York, NY
 
 [GitHub](https://github.com/sandriyishen) · [LinkedIn](https://www.linkedin.com/in/andriyishen/) · [Email](mailto:s.andriyishen@gmail.com) · [Blog](https://sandriyishen.wixsite.com/blindspot)
 
-Data scientist with 9+ years of experience working in startup to mid-sized to large tech companies. My expertise is coming up with no-nonsense, rapid solutions to complicated business problems — having worked alone and built my own teams to deliver custom-tailored data projects, from defining the actual business problem to tweaking product delivery.
+Hands-on data scientist and statistical software engineer with 9+ years of experience building experimentation systems, causal-inference methods, production data infrastructure, and machine-learning solutions. I specialize in turning difficult measurement problems into reusable Python software and scalable analytical workflows, from statistical methodology through APIs, data integration, testing, and production readiness.
 
-Nothing gets me as excited as encountering a complicated problem I haven't seen before and coming up with an elegant solution, even better if it requires quickly learning a new tool or method. Feel free to reach out to discuss opportunities — or just to nerd out about data.
+I enjoy tackling technically demanding problems, building the solution myself, and making it reliable enough for others to use. Open to senior technical individual-contributor opportunities in experimentation, applied statistics, and data infrastructure.
 
-- Experimentation & evaluation
-- Forecasting & machine learning
-- Spark, GCP & AWS at scale
-- Team building & client delivery
+- Experimentation & causal inference
+- Python APIs & statistical software
+- BigQuery, Spark, GCP & AWS
+- Organization-wide technical standards
 
 ## Experience
 
 ### Lead Data Scientist — Aetna, a CVS Health Company
 April 2023 – Present · Remote, New York City Metropolitan Area
 
-- Standardize and curate experiment evaluation methodologies by developing, managing, and advocating innersource Python packages
-- Automated campaign evaluation end to end, with data-quality validation and automatic selection of the best-practice statistical methodology for each dataset's composition
-- Lead organization-wide initiatives in training, innersource package contribution, best-practice coding guides, and effective onboarding
+- Led enterprise experimentation standardization across 22–24 stakeholder teams and nearly 200 data scientists, migrating approximately 85–86% of legacy campaigns to a centralized SaaS measurement platform supporting nearly 500 experiments, 500+ metrics, and 100+ experiment properties
+- Architected and independently engineered a Python-based experimentation and causal-inference system integrating FastAPI, BigQuery, third-party experimentation APIs and outputs, and campaign/content metadata; developed reusable statistical packages and curated experiment-, property-, and member-level transformations for cross-experiment learning and portfolio reporting
+- Implemented propensity score matching (PSM) for synthetic-control construction, RMM-based validation, bias adjustment, outlier handling, and member-level incremental lift recalculation across experiments; previously implemented inverse probability weighting (IPW) and difference-in-differences (DiD) in an organization-wide Python evaluation package
+- Curated and maintained dozens of analytical views within an enterprise data environment spanning dozens of datasets and hundreds of views, standardizing inputs for reusable campaign measurement pipelines
+- Reengineered most of an inherited FastAPI backend and hardened its supporting web UI ahead of release, adding authentication and security improvements, static typing, error handling, automated tests, and expanded functionality; implemented containerized deployment workflows with GitHub Actions and GKE on GCP, using uv and pytest
+- Partnered directly with a commercial experimentation vendor's data science and engineering teams to define and deliver 60+ enhancements, including cross-experiment results, CUPED expansion, bias controls, outlier-handling methodologies, incremental-effect calculations, and UI improvements; helped introduce CUPED and sequential testing into organizational measurement workflows
+- Designed automated measurement and reporting workflows targeting a reduction in per-campaign measurement effort from an estimated 50 to 5 hours, with cross-experiment extraction, aggregation, and reporting designed to reduce work previously requiring hundreds of analyst-hours to approximately one hour; projected benefits pending broader release and validation
+- Drove campaign simplification, measurement governance, and metadata standards through the Measurement Center of Excellence; standards adopted by the center, with broader rollout pending, and developed an unreleased cross-experiment learning strategy to inform Marketing Pods' creative and audience decisions
+- Developed and maintained reusable innersource Python tooling for campaign evaluation, including data-quality validation and automated selection of statistical methods based on dataset characteristics; advanced organization-wide statistical and engineering best practices
 
 ### Senior Data Scientist — Aetna, a CVS Health Company
 September 2021 – April 2023 · New York City Metropolitan Area
@@ -85,9 +91,9 @@ August 2013 – September 2016 · New York, NY
 
 ## Skills & Interests
 
-- **Experimentation & Statistics:** Experiment design, Evaluation methodology, Hypothesis testing, Bayesian statistics, Regression analysis
+- **Experimentation & Statistics:** Experimental design, Causal inference, Synthetic controls, Bias adjustment, Outlier handling, Cross-experiment analysis, Evaluation methodology, Hypothesis testing, Bayesian statistics, Regression analysis
 - **Machine Learning:** XGBoost, Time-series forecasting, ARIMA & harmonic models, Neural-network forecasting, Clustering & segmentation, Look-alike modeling, Market basket analysis, Marketing mix modeling, Predictive maintenance
-- **Data Engineering:** Spark, Hadoop, Hive, SQL, Data pipelines, Multiprocessing, Innersource Python packages
+- **Software & Data Engineering:** Python packages, Backend APIs, API integration, Automated testing, Static type checking, Authentication, Application security, BigQuery, Spark, Hadoop, Hive, SQL, Data pipelines, Multiprocessing
 - **Cloud Platforms:** GCP, AWS Lambda, AWS Step Functions, DynamoDB, Serverless architecture
 - **Languages & Tools:** Python, R, Pandas, Stan, Git, Jupyter, RStudio, VS Code, Shell scripting, Excel, Web scraping
 - **Visualization & GIS:** Tableau, ggplot2, Plotly, Leaflet, QGIS, GeoDa, SaTScan
