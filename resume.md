@@ -22,23 +22,29 @@ Lead Data Scientist · New York, NY
 
 [GitHub](https://github.com/sandriyishen) · [LinkedIn](https://www.linkedin.com/in/andriyishen/) · [Email](mailto:s.andriyishen@gmail.com) · [Blog](https://sandriyishen.wixsite.com/blindspot)
 
-Data scientist with 9+ years of experience working in startup to mid-sized to large tech companies. My expertise is coming up with no-nonsense, rapid solutions to complicated business problems — having worked alone and built my own teams to deliver custom-tailored data projects, from defining the actual business problem to tweaking product delivery.
+Hands-on data scientist and statistical software engineer with 9+ years of experience building experimentation systems, causal-inference methods, production data infrastructure, and machine-learning solutions. I specialize in turning difficult measurement problems into reusable Python software and scalable analytical workflows, from statistical methodology through APIs, data integration, testing, and production readiness.
 
-Nothing gets me as excited as encountering a complicated problem I haven't seen before and coming up with an elegant solution, even better if it requires quickly learning a new tool or method. Feel free to reach out to discuss opportunities — or just to nerd out about data.
+I enjoy tackling technically demanding problems, building the solution myself, and making it reliable enough for others to use. Open to senior technical individual-contributor opportunities in experimentation, applied statistics, and data infrastructure.
 
-- Experimentation & evaluation
-- Forecasting & machine learning
-- Spark, GCP & AWS at scale
-- Team building & client delivery
+- Experimentation & causal inference
+- Python APIs & statistical software
+- BigQuery, Spark, GCP & AWS
+- Organization-wide technical standards
 
 ## Experience
 
 ### Lead Data Scientist — Aetna, a CVS Health Company
 April 2023 – Present · Remote, New York City Metropolitan Area
 
-- Standardize and curate experiment evaluation methodologies by developing, managing, and advocating innersource Python packages
-- Automated campaign evaluation end to end, with data-quality validation and automatic selection of the best-practice statistical methodology for each dataset's composition
-- Lead organization-wide initiatives in training, innersource package contribution, best-practice coding guides, and effective onboarding
+- Architected and independently developed a Python-based statistical measurement system integrating BigQuery, experimentation platform outputs and APIs, and campaign/content metadata, with backend APIs, reusable packages, and a web UI to extend third-party SaaS capabilities
+- Implemented synthetic-control methodologies for test-only campaigns, alongside outlier-handling and bias-adjustment strategies for complex campaign measurement
+- Built cross-experiment analysis and cross-campaign reporting capabilities to support portfolio-level insights beyond the commercial experimentation platform's native functionality
+- Reengineered most of an inherited backend API and hardened the supporting UI application, improving authentication, security, error handling, automated testing, type checking, and maintainability ahead of release
+- Partnered with the SaaS vendor's data science and engineering teams on solution design and requirements, influencing delivery of 60+ platform enhancements, including bespoke enterprise features
+- Led rollout of a centralized experimentation platform, migrating approximately 85–86% of legacy campaigns and supporting measurement standardization across 22–24 stakeholder teams
+- Drove campaign simplification and measurement standards through the Measurement Center of Excellence, securing adoption of proposed standards within the center and preparing broader organizational rollout
+- Developed and maintained reusable innersource Python tooling for automated campaign evaluation, including data-quality validation and methodology selection based on dataset characteristics
+- Led organization-wide initiatives in statistical best practices, reusable software, coding guidance, and technical onboarding
 
 ### Senior Data Scientist — Aetna, a CVS Health Company
 September 2021 – April 2023 · New York City Metropolitan Area
@@ -85,9 +91,9 @@ August 2013 – September 2016 · New York, NY
 
 ## Skills & Interests
 
-- **Experimentation & Statistics:** Experiment design, Evaluation methodology, Hypothesis testing, Bayesian statistics, Regression analysis
+- **Experimentation & Statistics:** Experimental design, Causal inference, Synthetic controls, Bias adjustment, Outlier handling, Cross-experiment analysis, Evaluation methodology, Hypothesis testing, Bayesian statistics, Regression analysis
 - **Machine Learning:** XGBoost, Time-series forecasting, ARIMA & harmonic models, Neural-network forecasting, Clustering & segmentation, Look-alike modeling, Market basket analysis, Marketing mix modeling, Predictive maintenance
-- **Data Engineering:** Spark, Hadoop, Hive, SQL, Data pipelines, Multiprocessing, Innersource Python packages
+- **Software & Data Engineering:** Python packages, Backend APIs, API integration, Automated testing, Static type checking, Authentication, Application security, BigQuery, Spark, Hadoop, Hive, SQL, Data pipelines, Multiprocessing
 - **Cloud Platforms:** GCP, AWS Lambda, AWS Step Functions, DynamoDB, Serverless architecture
 - **Languages & Tools:** Python, R, Pandas, Stan, Git, Jupyter, RStudio, VS Code, Shell scripting, Excel, Web scraping
 - **Visualization & GIS:** Tableau, ggplot2, Plotly, Leaflet, QGIS, GeoDa, SaTScan
