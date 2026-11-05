@@ -36,7 +36,7 @@ I enjoy tackling technically demanding problems, building the solution myself, a
 ### Lead Data Scientist — Aetna, a CVS Health Company
 April 2023 – Present · Remote, New York City Metropolitan Area
 
-- **24 teams across 4 business verticals; nearly 200 data scientists:** Led enterprise experimentation standardization, migrating **approximately 86% of legacy campaigns** to a SaaS measurement platform supporting **nearly 500 experiments, 500+ metrics, and 100+ experiment properties**
+- Led enterprise experimentation standardization across approximately **24 teams in 4 business verticals** and nearly **200 data scientists**, migrating approximately **86% of legacy campaigns** to a SaaS measurement platform supporting nearly **500 experiments**, **500+ metrics**, and **100+ experiment properties**
 - Architected and engineered a reusable Python/FastAPI experimentation analytics platform integrating BigQuery, third-party APIs, and campaign metadata; standardized data transformations across experiment, property, and member levels for scalable cross-experiment and portfolio analysis
 - Built scalable causal-inference frameworks across campaigns with heterogeneous inputs and designs, including propensity score matching (PSM), synthetic controls, inverse probability weighting (IPW), difference-in-differences (DiD), bias and outlier adjustments, member-level incremental lift, and mixed-effects modeling for topic-related bias
 - Modernized backend APIs and supporting UI with authentication, security controls, static typing, error handling, and automated testing; built containerized CI/CD workflows with GitHub Actions, GKE, uv, and pytest, and integrated SonarQube code-quality checks
