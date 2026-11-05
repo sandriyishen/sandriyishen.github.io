@@ -44,6 +44,9 @@ April 2023 – Present · Remote, New York City Metropolitan Area
 - Partnered directly with a commercial experimentation vendor's data science and engineering teams to define and deliver 60+ enhancements, including cross-experiment results, CUPED expansion, bias controls, outlier-handling methodologies, incremental-effect calculations, and UI improvements; helped introduce CUPED and sequential testing into organizational measurement workflows
 - Designed automated measurement and reporting workflows targeting a reduction in per-campaign measurement effort from an estimated 50 to 5 hours, with cross-experiment extraction, aggregation, and reporting designed to reduce work previously requiring hundreds of analyst-hours to approximately one hour; projected benefits pending broader release and validation
 - Drove campaign simplification, measurement governance, and metadata standards through the Measurement Center of Excellence; standards adopted by the center, with broader rollout pending, and developed an unreleased cross-experiment learning strategy to inform Marketing Pods' creative and audience decisions
+- Established engineering quality and delivery controls across owned repositories, integrating SonarQube and seven of eight applicable squad engineering metrics; deferred mean time to resolution (MTTR) until production operations make it measurable
+- Restored an automated metric-certification repository using GitHub Actions CI/CD, experimentation-platform APIs, and validation checks to govern approved metric definitions; migrated DAG infrastructure to a new GitHub organization
+- Developed an enterprise measurement technical roadmap and capacity-planning model spanning statistical development, backend and UI engineering, infrastructure dependencies, technical debt, upgrades, and operational support; quantified staffing and delivery trade-offs to inform organizational planning
 - Developed and maintained reusable innersource Python tooling for campaign evaluation, including data-quality validation and automated selection of statistical methods based on dataset characteristics; advanced organization-wide statistical and engineering best practices
 
 ### Senior Data Scientist — Aetna, a CVS Health Company
@@ -93,11 +96,11 @@ August 2013 – September 2016 · New York, NY
 
 - **Experimentation & Statistics:** Experimental design, Causal inference, Synthetic controls, Bias adjustment, Outlier handling, Cross-experiment analysis, Evaluation methodology, Hypothesis testing, Bayesian statistics, Regression analysis
 - **Machine Learning:** XGBoost, Time-series forecasting, ARIMA & harmonic models, Neural-network forecasting, Clustering & segmentation, Look-alike modeling, Market basket analysis, Marketing mix modeling, Predictive maintenance
-- **Software & Data Engineering:** Python packages, Backend APIs, API integration, Automated testing, Static type checking, Authentication, Application security, BigQuery, Spark, Hadoop, Hive, SQL, Data pipelines, Multiprocessing
+- **Software & Data Engineering:** Python packages, Backend APIs, API integration, FastAPI, CI/CD, GitHub Actions, GKE, Docker/containerized deployment, pytest, uv, SonarQube, Automated testing, Static type checking, Authentication, Application security, BigQuery, Spark, Hadoop, Hive, SQL, Data pipelines, Multiprocessing
 - **Cloud Platforms:** GCP, AWS Lambda, AWS Step Functions, DynamoDB, Serverless architecture
 - **Languages & Tools:** Python, R, Pandas, Stan, Git, Jupyter, RStudio, VS Code, Shell scripting, Excel, Web scraping
 - **Visualization & GIS:** Tableau, ggplot2, Plotly, Leaflet, QGIS, GeoDa, SaTScan
-- **Leadership & Delivery:** Team building, Project management, Stakeholder communication, Client presentations, Trainings, Fundraising & pitching
+- **Leadership & Delivery:** Technical architecture, Technical roadmapping, Capacity modeling, Metric governance, Model Context Protocol (MCP) planning, Team building, Project management, Stakeholder communication, Client presentations, Trainings, Fundraising & pitching
 - **Spoken Languages:** English (native), Russian (professional), Mandarin Chinese (professional)
 - **Interests:** Social studies, Data pipelining, Scripting
 
