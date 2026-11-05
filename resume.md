@@ -36,15 +36,15 @@ I enjoy tackling technically demanding problems, building the solution myself, a
 ### Lead Data Scientist — Aetna, a CVS Health Company
 April 2023 – Present · Remote, New York City Metropolitan Area
 
-- Led enterprise experimentation standardization across 22–24 stakeholder teams and nearly 200 data scientists, migrating approximately 85–86% of legacy campaigns to a centralized SaaS measurement platform supporting nearly 500 experiments, 500+ metrics, and 100+ experiment properties
-- Architected and independently engineered a Python-based experimentation and causal-inference system integrating FastAPI, BigQuery, third-party experimentation APIs and outputs, and campaign/content metadata; developed reusable statistical packages and curated experiment-, property-, and member-level transformations for cross-experiment learning and portfolio reporting
-- Implemented propensity score matching (PSM) for synthetic-control construction, RMM-based validation, bias adjustment, outlier handling, and member-level incremental lift recalculation across experiments; previously implemented inverse probability weighting (IPW) and difference-in-differences (DiD) in an organization-wide Python evaluation package
-- Curated and maintained dozens of analytical views within an enterprise data environment spanning dozens of datasets and hundreds of views, standardizing inputs for reusable campaign measurement pipelines
-- Reengineered most of an inherited FastAPI backend and hardened its supporting web UI ahead of release, adding authentication and security improvements, static typing, error handling, automated tests, and expanded functionality; implemented containerized deployment workflows with GitHub Actions and GKE on GCP, using uv and pytest
-- Partnered directly with a commercial experimentation vendor's data science and engineering teams to define and deliver 60+ enhancements, including cross-experiment results, CUPED expansion, bias controls, outlier-handling methodologies, incremental-effect calculations, and UI improvements; helped introduce CUPED and sequential testing into organizational measurement workflows
-- Designed automated measurement and reporting workflows targeting a reduction in per-campaign measurement effort from an estimated 50 to 5 hours, with cross-experiment extraction, aggregation, and reporting designed to reduce work previously requiring hundreds of analyst-hours to approximately one hour; projected benefits pending broader release and validation
-- Drove campaign simplification, measurement governance, and metadata standards through the Measurement Center of Excellence; standards adopted by the center, with broader rollout pending, and developed an unreleased cross-experiment learning strategy to inform Marketing Pods' creative and audience decisions
-- Developed and maintained reusable innersource Python tooling for campaign evaluation, including data-quality validation and automated selection of statistical methods based on dataset characteristics; advanced organization-wide statistical and engineering best practices
+- Led enterprise experimentation standardization across approximately **24 teams in 4 business verticals** and nearly **200 data scientists**, migrating approximately **86% of legacy campaigns** to a SaaS measurement platform supporting nearly **500 experiments**, **500+ metrics**, and **100+ experiment properties**
+- Architected, built, and owned a Python/FastAPI application extending an enterprise SaaS experimentation platform to **automate scalable cross-experiment measurement and portfolio reporting**; integrated BigQuery, platform APIs, and campaign metadata, with reusable member-level lift calculations and mixed-effects modeling to address topic-related bias
+- Owned and developed an organization-wide Python campaign-evaluation package to provide **flexible, scalable statistical analysis** across campaigns with heterogeneous inputs, methodologies, and experimental designs; supported randomized controlled trials (RCTs), ratio mismatch testing (RMM), synthetic-control methodologies such as propensity score matching (PSM) and inverse probability weighting (IPW), difference-in-differences (DiD), and bias and outlier adjustments
+- Owned and engineered Python/FastAPI backend services and supporting web UI, implementing authentication, security controls, static typing, error handling, and automated testing; built containerized CI/CD workflows with GitHub Actions, GKE, uv, and pytest, and integrated SonarQube code-quality checks
+- Partnered with experimentation-platform data science and engineering teams on 60+ enhancements spanning CUPED, sequential testing, cross-experiment reporting, bias controls, outlier handling, incremental-effect calculations, and UI improvements
+- Developed reusable measurement infrastructure and automated reporting workflows targeting a reduction in per-campaign effort from an estimated 50 to 5 hours; projected time savings remain subject to adoption and validation
+- Established organization-wide experimentation methodology and metric-governance standards through a technical Center of Excellence; created, owned, and engineered automated metric certification using GitHub Actions, API validation, and controls for approved definitions
+- Maintained reusable Python evaluation packages and enterprise analytical views, including data-quality checks and automated statistical-method selection; contributed to shared developer workflows and PromptPad guidance, modernizing Python dependency management from Pipfile to uv and integrating internal artifact repositories
+- Developed an enterprise measurement architecture roadmap and quantitative capacity model covering statistical development, backend and UI engineering, infrastructure dependencies, maintenance, and support to evaluate technical investment and delivery trade-offs
 
 ### Senior Data Scientist — Aetna, a CVS Health Company
 September 2021 – April 2023 · New York City Metropolitan Area
@@ -91,13 +91,13 @@ August 2013 – September 2016 · New York, NY
 
 ## Skills & Interests
 
-- **Experimentation & Statistics:** Experimental design, Causal inference, Synthetic controls, Bias adjustment, Outlier handling, Cross-experiment analysis, Evaluation methodology, Hypothesis testing, Bayesian statistics, Regression analysis
+- **Experimentation & Statistics:** Experimental design, Causal inference, Mixed-effects models, Synthetic controls, Bias adjustment, Outlier handling, Cross-experiment analysis, Evaluation methodology, Hypothesis testing, Bayesian statistics, Regression analysis
 - **Machine Learning:** XGBoost, Time-series forecasting, ARIMA & harmonic models, Neural-network forecasting, Clustering & segmentation, Look-alike modeling, Market basket analysis, Marketing mix modeling, Predictive maintenance
-- **Software & Data Engineering:** Python packages, Backend APIs, API integration, Automated testing, Static type checking, Authentication, Application security, BigQuery, Spark, Hadoop, Hive, SQL, Data pipelines, Multiprocessing
+- **Software & Data Engineering:** Python packages, Backend APIs, API integration, FastAPI, CI/CD, GitHub Actions, GKE, Docker/containerized deployment, pytest, uv, SonarQube, Automated testing, Static type checking, Authentication, Application security, BigQuery, Spark, Hadoop, Hive, SQL, Data pipelines, Multiprocessing
 - **Cloud Platforms:** GCP, AWS Lambda, AWS Step Functions, DynamoDB, Serverless architecture
 - **Languages & Tools:** Python, R, Pandas, Stan, Git, Jupyter, RStudio, VS Code, Shell scripting, Excel, Web scraping
 - **Visualization & GIS:** Tableau, ggplot2, Plotly, Leaflet, QGIS, GeoDa, SaTScan
-- **Leadership & Delivery:** Team building, Project management, Stakeholder communication, Client presentations, Trainings, Fundraising & pitching
+- **Leadership & Delivery:** Technical architecture, Technical roadmapping, Capacity modeling, Metric governance, Model Context Protocol (MCP) planning, Team building, Project management, Stakeholder communication, Client presentations, Trainings, Fundraising & pitching
 - **Spoken Languages:** English (native), Russian (professional), Mandarin Chinese (professional)
 - **Interests:** Social studies, Data pipelining, Scripting
 
